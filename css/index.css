@@ -1,0 +1,157 @@
+.brands {
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.brands li {
+    display: inline-block;
+    width: 20%;
+    margin: 15px;
+}
+
+.brands img {
+    width: 100%;
+}
+
+.collapse .active {
+    color: #333;
+    border-bottom: 2px solid #c90024;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #F1F0EE;
+    padding-top: 0;
+}
+
+#slides {
+    display: none
+}
+
+#slides .slidesjs-navigation {
+    margin-top: 3px;
+}
+
+#slides .slidesjs-previous {
+    margin-right: 5px;
+    float: left;
+}
+
+#slides .slidesjs-next {
+    margin-right: 5px;
+    float: left;
+}
+
+.slidesjs-pagination {
+    margin: 6px 0 0;
+    float: right;
+    list-style: none;
+}
+
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(../img/pagination.png);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+    background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+    color: #232079;
+}
+
+#slides a:hover,
+#slides a:active {
+    color: #c90024;
+}
+
+#slides {
+    display: none
+}
+
+.container {
+    margin: 0 auto
+}
+
+p {
+    font-size: 1.18em;
+    letter-spacing: 1px;
+}
+
+.about-us {
+    padding: 10px;
+}
+
+
+/* For tablets & smart phones */
+
+@media (max-width: 767px) {
+    body {
+        /*padding-left: 20px;
+        padding-right: 20px;*/
+    }
+    .container {
+        width: auto
+    }
+}
+
+
+/* For smartphones */
+
+@media (max-width: 480px) {
+    .container {
+        width: auto
+    }
+    .brands li {
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 15px;
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
+    body {
+        padding-top: 40px;
+    }
+}
+
+
+/* For smaller displays like laptops */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .container {
+        width: 724px;
+    }
+}
+
+
+/* For larger displays */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
